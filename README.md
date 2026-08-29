@@ -44,7 +44,7 @@ Chapters 6–9 each ship with their own live Excel workbook (`Financial_Analysis
 ```
 Project 1 - Sun Pharma-Organon MA/
 ├── README.md                     ← this file
-├── .gitignore                    ← excludes 07_Interview_Prep/ and common junk from the public repo
+├── .gitignore                    ← keeps OS/Python/Office junk out of git
 ├── 01_Research_Report/           ← Part 1: one folder per chapter, each with its .docx,
 │                                    a /charts subfolder, and (Ch.6-9) a live Excel model
 ├── 02_Excel_Model/               ← Part 2: integrated .xlsx model (14 tabs, 236 formulas;
@@ -59,8 +59,6 @@ Project 1 - Sun Pharma-Organon MA/
 │   ├── processed/                ← cleaned CSV/Parquet used by the model & Python
 │   └── DATA_SOURCES.docx         ← full sourcing map (mandatory/recommended/optional)
 ├── 06_Visuals/                   ← Part 7: exported charts (football field, waterfalls, etc.)
-├── 07_Interview_Prep/            ← interview Q&A walkthrough of this deal book — kept local,
-│                                    excluded from the public GitHub copy (see below)
 └── docs/                         ← methodology, the model's assumptions log, and this project's changelog
     ├── methodology.md
     ├── assumptions_log.md
@@ -138,11 +136,3 @@ The Excel model (`02_Excel_Model/Sun_Pharma_Organon_Integrated_Model.xlsx`) need
 ## The bottom line (Chapter 10)
 
 Three independent methods (DCF, trading comps, precedent transactions) triangulate Organon's standalone value; the $14.00 offer sits at the low end of DCF/comps and below precedents — base-case DCF implies ~$16.5/share, a ~15–20% margin of safety. The transaction is materially EPS accretive from Year 1 (~+60%, rising to ~+75% by Year 3), but that accretion is leverage-driven and explicitly **not** the basis for the recommendation. The report's conclusion is **PROCEED**, conditional on (1) Organon's established-brands free cash flow holding up close to modelled and (2) terming out the $12bn bridge at a manageable spread — the two variables the risk chapter identifies as the deal's real, concentrated risk.
-
-## What's excluded from the public GitHub copy
-
-`07_Interview_Prep/` (an interview-style Q&A walkthrough of this deal book) is kept local and is not pushed to GitHub — see `.gitignore`. Everything else in this structure is included.
-
-## Disclaimer
-
-Prepared for educational / portfolio purposes from public information. Not investment advice. All third-party marks belong to their owners.

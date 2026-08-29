@@ -1,6 +1,3 @@
-# Kept out of the public GitHub copy of this project
-07_Interview_Prep/
-
 # OS junk
 .DS_Store
 Thumbs.db
@@ -26,3 +23,4 @@ venv/
 
 # Backup of the pre-edit README (kept locally for reference; not for GitHub)
 README.md.bak_pre_*
+07_Interview_Prep/
