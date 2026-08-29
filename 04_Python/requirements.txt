@@ -1,0 +1,6 @@
+pandas>=2.0
+numpy>=1.24
+matplotlib>=3.7
+openpyxl>=3.1
+yfinance>=0.2      # optional: live prices/beta
+streamlit>=1.30    # optional: interactive dashboard

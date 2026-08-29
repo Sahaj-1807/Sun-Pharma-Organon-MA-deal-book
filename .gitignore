@@ -1,0 +1,28 @@
+# Kept out of the public GitHub copy of this project
+07_Interview_Prep/
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+venv/
+.venv/
+*.egg-info/
+
+# Office lock/temp files
+~$*.docx
+~$*.pptx
+~$*.xlsx
+*.tmp
+
+# Editors
+.vscode/
+.idea/
+
+# Backup of the pre-edit README (kept locally for reference; not for GitHub)
+README.md.bak_pre_*
