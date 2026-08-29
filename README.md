@@ -44,7 +44,6 @@ Chapters 6–9 each ship with their own live Excel workbook (`Financial_Analysis
 ```
 Project 1 - Sun Pharma-Organon MA/
 ├── README.md                     ← this file
-├── .gitignore                    ← keeps OS/Python/Office junk out of git
 ├── 01_Research_Report/           ← Part 1: one folder per chapter, each with its .docx,
 │                                    a /charts subfolder, and (Ch.6-9) a live Excel model
 ├── 02_Excel_Model/               ← Part 2: integrated .xlsx model (14 tabs, 236 formulas;
