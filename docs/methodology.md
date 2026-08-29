@@ -4,10 +4,10 @@ How this deal book is built, so a reader (or a reviewer) can judge how much weig
 
 ## 1. Fiscal-year and currency normalisation
 
-Sun Pharma reports in INR to a 31 March year-end; Organon reports in USD to a 31 December year-end. The two are treated as roughly contemporaneous "FY2025" for comparison purposes, which is a simplification — a ~3-month lag, not a true calendar match. Two consequences follow:
+Sun Pharma reports in INR to a 31 March year-end; Organon reports in USD to a 31 December year-end. The two are treated as roughly contemporaneous "FY2025" for comparison purposes, which is a simplification — a \~3-month lag, not a true calendar match. Two consequences follow:
 
 - **FX.** Sun Pharma's INR figures are converted to USD at a single FY2025 reference rate of **₹85.5/USD** wherever a USD figure is shown for Sun. This is a point conversion for illustration, not a precise average-rate or spot-rate translation of each line item — treat cross-currency comparisons as directional, not exact.
-- **No calendar-quarter reconciliation.** The model does not restate either company onto a common quarter-end; it compares full fiscal years labelled "FY2025" for both, understanding they end ~3 months apart.
+- **No calendar-quarter reconciliation.** The model does not restate either company onto a common quarter-end; it compares full fiscal years labelled "FY2025" for both, understanding they end \~3 months apart.
 
 ## 2. Adjusted vs. GAAP figures
 
@@ -37,7 +37,7 @@ All-cash, debt-funded, no new Sun shares issued — so accretion/dilution collap
 
 - Builds **Sources & Uses** and a **purchase-price allocation** (book equity written off, an intangible step-up amortised over 15 years, a deferred-tax liability on the step-up, goodwill as the plug) directly off the Excel `Assumptions` tab — those figures, not independently rounded prose, are the source of truth (see the changelog for a reconciliation pass that aligned the two).
 - Computes interest on the **opening** debt balance each year (not the average or closing balance) specifically to avoid a circular reference between interest, cash flow, and paydown — a standard simplification; the live workbook notes where an iterative-calculation toggle would be needed to relax it.
-- Treats the resulting EPS accretion (~+60% in Year 1) as a **by-product of leverage and scale**, not a scorecard for whether the deal creates value — the chapter is explicit that the binding tests are Organon's free-cash-flow durability and the bridge refinancing, not the headline accretion number.
+- Treats the resulting EPS accretion (\~+60% in Year 1) as a **by-product of leverage and scale**, not a scorecard for whether the deal creates value — the chapter is explicit that the binding tests are Organon's free-cash-flow durability and the bridge refinancing, not the headline accretion number.
 
 ## 6. Live model vs. narrative chapters
 

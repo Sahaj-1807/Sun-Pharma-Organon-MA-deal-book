@@ -46,11 +46,11 @@ Open once — it will run normally after that.
 
 ## What it reproduces
 
-- **WACC** ~9.0% (CAPM + company-specific premium)
-- **DCF**: EV ~$12.4bn, equity ~$16.5/share, ~+18% vs the $14.00 offer
+- **WACC** \~9.0% (CAPM + company-specific premium)
+- **DCF**: EV \~$12.4bn, equity \~$16.5/share, \~+18% vs the $14.00 offer
 - **Sensitivity**: WACC 8-10% x exit 5.0-7.0x
 - **Comps / precedents**: implied per-share ranges
-- **Merger**: goodwill ~$1.3bn, ~+60% Year-1 EPS accretion
+- **Merger**: goodwill \~$1.3bn, \~+60% Year-1 EPS accretion
 - **Ratios**: Organon FY21-25 margins, growth, leverage
 
 ## Notes

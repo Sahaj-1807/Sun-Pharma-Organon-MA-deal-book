@@ -1,7 +1,7 @@
 # Sun Pharma / Organon — M&A Deal Book
 
 **Cross-border acquisition of Organon & Co. (NYSE: OGN) by Sun Pharmaceutical Industries Ltd. (NSE/BSE: SUNPHARMA)**
-$14.00 per share, all-cash · ~$11.75bn enterprise value · announced April 2026 · expected close early 2027
+$14.00 per share, all-cash · \~$11.75bn enterprise value · announced April 2026 · expected close early 2027
 
 An institutional-grade M&A analysis package: a 10-chapter research report, a live formula-linked Excel model, an independent Python valuation toolkit, and a pitchbook — all built from public filings and disclosed deal terms, and cross-checked against each other.
 
@@ -11,11 +11,11 @@ An institutional-grade M&A analysis package: a 10-chapter research report, a liv
 
 ## The deal in one paragraph
 
-Sun Pharma, India's largest drugmaker (net cash ~$3.1bn at FY25), is acquiring Organon — a Merck women's-health / biosimilars / established-brands spin-off — for $14.00/share in cash. Because Organon carries ~$8.6bn of gross debt against only ~$3.6bn of equity value at the offer price, the ~$11.75bn enterprise value is overwhelmingly a **debt-assumption / refinancing** story rather than an equity purchase. Sun is funding via a $12bn committed bridge (Sun Pharma USA) plus internal accruals, targeting ~2.3x post-deal net leverage. This is the largest acquisition ever by an Indian pharma company, and the differentiator of this analysis is the **India-outbound financing and tax structuring** it requires.
+Sun Pharma, India's largest drugmaker (net cash \~$3.1bn at FY25), is acquiring Organon — a Merck women's-health / biosimilars / established-brands spin-off — for $14.00/share in cash. Because Organon carries \~$8.6bn of gross debt against only \~$3.6bn of equity value at the offer price, the \~$11.75bn enterprise value is overwhelmingly a **debt-assumption / refinancing** story rather than an equity purchase. Sun is funding via a $12bn committed bridge (Sun Pharma USA) plus internal accruals, targeting \~2.3x post-deal net leverage. This is the largest acquisition ever by an Indian pharma company, and the differentiator of this analysis is the **India-outbound financing and tax structuring** it requires.
 
 ## Why this deal is analytically interesting
 
-1. **It's a leverage story, not a premium story.** The headline is a ~$3.6bn equity cheque, but the real capital at risk is the ~$8bn debt load being absorbed and refinanced.
+1. **It's a leverage story, not a premium story.** The headline is a \~$3.6bn equity cheque, but the real capital at risk is the \~$8bn debt load being absorbed and refinanced.
 2. **Cross-border structuring.** An Indian acquirer funding a US target through offshore vehicles (Sun Pharma USA), bridge-to-bond take-out, euro issuance, and the associated tax/treaty routing.
 3. **A declining-asset base.** Organon's revenue is flat-to-declining (Established Brands in secular decline) — the model must test whether Women's Health + Biosimilars growth offsets it.
 4. **Fiscal-year mismatch and FX.** Sun Pharma reports in INR to a March year-end; Organon in USD to a December year-end. Normalising these correctly is part of the craft — see `docs/methodology.md`.
@@ -123,15 +123,15 @@ The Excel model (`02_Excel_Model/Sun_Pharma_Organon_Integrated_Model.xlsx`) need
 
 | Metric | Organon (FY2025, Dec-YE) | Sun Pharma (FY2025, Mar-YE) |
 |---|---|---|
-| Revenue | $6.2bn | ₹520.4bn revenue from operations (~$6.1bn); total income incl. other income ~₹545bn |
-| Adj. EBITDA | $1.91bn (30.7% margin) | ₹153.0bn (~$1.8bn) |
-| Adj. net income | $954m ($3.66/sh) | ₹120.0bn (~$1.4bn) |
-| Net debt / (cash) | ~+$8.1bn net debt | ~(-$3.1bn) net cash |
+| Revenue | $6.2bn | ₹520.4bn revenue from operations (\~$6.1bn); total income incl. other income \~₹545bn |
+| Adj. EBITDA | $1.91bn (30.7% margin) | ₹153.0bn (\~$1.8bn) |
+| Adj. net income | $954m ($3.66/sh) | ₹120.0bn (\~$1.4bn) |
+| Net debt / (cash) | \~+$8.1bn net debt | \~(-$3.1bn) net cash |
 
-*FX (~₹85.5/USD) and fiscal-period normalisation are documented in `docs/methodology.md`. All figures traceable to the filings listed in `05_Data/DATA_SOURCES.docx`.*
+*FX (\~₹85.5/USD) and fiscal-period normalisation are documented in `docs/methodology.md`. All figures traceable to the filings listed in `05_Data/DATA_SOURCES.docx`.*
 
-**Primary-source verification:** Organon's key model inputs are confirmed against its actual FY2025 10-K (SEC EDGAR, CIK 0001821825) — shares **260,315,650**, cash **$574m**, long-term debt **$8,628m** (net debt ~$8.05bn). See `05_Data/raw/Organon_Primary_Source_Verification.docx` and `organon_balance_sheet_series_EDGAR.csv`. The inferred inputs (~260m shares, ~$8.1bn net debt) matched the filing.
+**Primary-source verification:** Organon's key model inputs are confirmed against its actual FY2025 10-K (SEC EDGAR, CIK 0001821825) — shares **260,315,650**, cash **$574m**, long-term debt **$8,628m** (net debt \~$8.05bn). See `05_Data/raw/Organon_Primary_Source_Verification.docx` and `organon_balance_sheet_series_EDGAR.csv`. The inferred inputs (\~260m shares, \~$8.1bn net debt) matched the filing.
 
 ## The bottom line (Chapter 10)
 
-Three independent methods (DCF, trading comps, precedent transactions) triangulate Organon's standalone value; the $14.00 offer sits at the low end of DCF/comps and below precedents — base-case DCF implies ~$16.5/share, a ~15–20% margin of safety. The transaction is materially EPS accretive from Year 1 (~+60%, rising to ~+75% by Year 3), but that accretion is leverage-driven and explicitly **not** the basis for the recommendation. The report's conclusion is **PROCEED**, conditional on (1) Organon's established-brands free cash flow holding up close to modelled and (2) terming out the $12bn bridge at a manageable spread — the two variables the risk chapter identifies as the deal's real, concentrated risk.
+Three independent methods (DCF, trading comps, precedent transactions) triangulate Organon's standalone value; the $14.00 offer sits at the low end of DCF/comps and below precedents — base-case DCF implies \~$16.5/share, a \~15–20% margin of safety. The transaction is materially EPS accretive from Year 1 (\~+60%, rising to \~+75% by Year 3), but that accretion is leverage-driven and explicitly **not** the basis for the recommendation. The report's conclusion is **PROCEED**, conditional on (1) Organon's established-brands free cash flow holding up close to modelled and (2) terming out the $12bn bridge at a manageable spread — the two variables the risk chapter identifies as the deal's real, concentrated risk.
